@@ -1,0 +1,61 @@
+/* Estilos para la Galería */
+.gallery-container {
+    padding: 50px;
+    background-color: #f9fafb;
+    text-align: center;
+  }
+  
+  .gallery-title {
+    font-size: 2.5rem;
+    color: #004d4d;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .gallery-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+  
+  .gallery-carousel {
+    margin-bottom: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Estilos para la cuadrícula de imágenes (opcional) */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 0 10px;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 1024px) {
+    .gallery-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
