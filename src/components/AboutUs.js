@@ -39,7 +39,7 @@ function AboutUs() {
       </div>
 
       <div className="about-us-image">
-        <img src="https://via.placeholder.com/600x400" alt="Agricultura Sostenible" />
+        <img src="https://i.pinimg.com/550x/c5/f4/e8/c5f4e8473f9cab38c84c8b20af82d936.jpg" alt="Agricultura Sostenible" />
       </div>
 
       <div className="about-us-footer">

@@ -1,0 +1,132 @@
+/* General Reset */
+body, html, ul, li, p, h1, h2, h3, h4, button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header */
+  .user-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #004d4d, #004d4d);
+    padding: 19px 20px;
+    color: white;
+  }
+  
+  .header-logo {
+    width: 120px;
+    height: auto;
+  }
+  
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background: #cc0000;
+  }
+  
+  /* Panel de Usuario (Contenedor Principal) */
+  .user-panel-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-panel {
+    background-color: rgb(243, 243, 243);
+    width: 70%;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 15px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Títulos */
+  .user-panel h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #004d4d;
+    text-align: center;
+  }
+  
+  .user-panel p {
+    font-size: 16px;
+    text-align: center;
+    color: #555;
+  }
+  
+  /* Lista de eventos */
+  .user-events-list {
+    margin-top: 20px;
+  }
+  
+  .user-events-list h3 {
+    font-size: 22px;
+    color: #004d4d;
+    margin-bottom: 10px;
+  }
+  
+  .event-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .event-card h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .event-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .header-logo {
+      width: 100px;
+    }
+  
+    .logout-button {
+      padding: 8px 15px;
+      font-size: 12px;
+    }
+  
+    .user-panel h2 {
+      font-size: 24px;
+    }
+  
+    .event-card {
+      padding: 10px 15px;
+    }
+  }
+  
